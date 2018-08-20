@@ -1,0 +1,12 @@
+.chat__holder{
+  border: 2px solid #333;
+  height:45vh;
+}
+
+.chat__holder ul{
+  list-style: none;
+}
+
+.chat__input input{
+width:90%;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Socket App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="/scripts/material-design-lite/material.min.css">
+  <script src="/scripts/material-design-lite/material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">-->
+  <link rel="stylesheet" href="/scripts/bootstrap/dist/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="css/main.css"> 
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col">
+          <h1>Welcome to the Weather Chat App!</h1>
+      </div>
+    </div>
+     <div class="row my-5">
+       <div class="col chat__holder">
+        <ul class="list-group" id="chat-list"></ul>
+       </div>
+     </div>
+     <div class="row mt-3">
+       <div class="col chat__input">
+        <input type="text" id="chat-ip" name="chatip" placeholder="Enter your question" />
+        <button id="chat-btn" class="btn btn-primary">Send</button>
+       </div>
+     </div>
+  </div>
+ 
+
+  <script src="/scripts/jquery/dist/jquery.min.js"></script>
+  <script src="/scripts/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/socketFile.js" type="application/javascript"></script>
+</body>
+</html>

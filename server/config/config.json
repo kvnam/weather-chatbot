@@ -1,8 +1,10 @@
 {
   "dev":{
-    "PORT": 3000
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://127.0.0.1:27017/WeatherBot_Dev"
   },
   "test":{
-    "PORT": 3000
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://127.0.0.1:27017/WeatherBot_Test"
   }
 }

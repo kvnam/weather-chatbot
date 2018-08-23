@@ -1,0 +1,14 @@
+[
+  {
+    "regExp": "\\b(hi|hello|hey)\\b",
+    "intent": "Hello"
+  },
+  {
+    "regExp": "\\b(bye|goodbye|ciao)\\b",
+    "intent": "Goodbye"
+  },
+  {
+    "regExp": "\\blike\\sin\\s(?<city>.+)\\b",
+    "intent": "Location"
+  }
+]

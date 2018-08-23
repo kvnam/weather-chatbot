@@ -13,9 +13,9 @@
 </head>
 <body>
 
-  <div class="container">
-
-    <div class="row">
+  <div class="container" id="root">
+  </div>
+  <!-- <div class="row">
       <div class="col">
           <h1>Welcome to the Weather Chat App!</h1>
       </div>
@@ -31,12 +31,19 @@
         <button id="chat-btn" class="btn btn-primary">Send</button>
        </div>
      </div>
-  </div>
+     <div class="row mt-4">
+       <div id="test_button_container"></div>
+     </div> -->
  
 
   <script src="/scripts/jquery/dist/jquery.min.js"></script>
   <script src="/scripts/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="/socket.io/socket.io.js"></script>
-  <script src="/js/socketFile.js" type="application/javascript"></script>
+  <!-- <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/socketFile.js" type="application/javascript"></script> -->
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="js/bundle.js"></script>
 </body>
 </html>
